@@ -5,7 +5,7 @@
 	"dataFolderName": ".openvscode-server",
 	"win32MutexName": "openvscodeserver",
 	"licenseName": "MIT",
-	"licenseUrl": "https://github.com/gitpod-io/openvscode-server/blob/main/LICENSE.txt",
+	"licenseUrl": "https://github.com/tangruotian/openvscode-server/blob/main/LICENSE.txt",
 	"serverGreeting": [],
 	"serverLicense": [],
 	"serverLicensePrompt": "",
@@ -26,13 +26,13 @@
 	"darwinBundleIdentifier": "openvscode.server",
 	"linuxIconName": "openvscode.server",
 	"licenseFileName": "LICENSE.txt",
-	"twitterUrl": "https://twitter.com/gitpod",
-	"reportIssueUrl": "https://github.com/gitpod-io/openvscode-server/issues/new",
-	"requestFeatureUrl": "https://github.com/gitpod-io/openvscode-server/issues",
+	"twitterUrl": "",
+	"reportIssueUrl": "https://github.com/tangruotian/openvscode-server/issues/new",
+	"requestFeatureUrl": "https://github.com/tangruotian/openvscode-server/issues",
 	"reportMarketplaceIssueUrl": "https://github.com/eclipse/openvsx/issues",
 	"sendASmile": {
-		"reportIssueUrl": "https://github.com/gitpod-io/openvscode-server/issues/new",
-		"requestFeatureUrl": "https://github.com/gitpod-io/openvscode-server/issues"
+		"reportIssueUrl": "https://github.com/tangruotian/openvscode-server/issues/new",
+		"requestFeatureUrl": "https://github.com/tangruotian/openvscode-server/issues"
 	},
 	"urlProtocol": "openvscode-server",
 	"embedderIdentifier": "openvscode-server",
