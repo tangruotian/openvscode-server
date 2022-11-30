@@ -1,0 +1,9 @@
+.gitignore
+src/**
+out/**
+build/**
+portsview/**
+!public/**
+tsconfig.json
+yarn.lock
+README.md

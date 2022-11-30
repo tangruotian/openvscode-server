@@ -1,0 +1,7 @@
+{
+	"files": [],
+	"references": [
+		{ "path": "./devopsremoting-common" },
+		{ "path": "./devopsremoting-web" }
+	]
+}

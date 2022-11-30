@@ -1,17 +1,29 @@
 {
+  "private": true,
   "name": "vscode-extensions",
   "version": "0.0.1",
   "license": "MIT",
   "description": "Dependencies shared by all extensions",
   "dependencies": {
-    "typescript": "^4.9.2-rc"
+    "typescript": "^4.9.3"
   },
   "scripts": {
-    "postinstall": "node ./postinstall.mjs"
+    "postinstall": "node ./postinstall.mjs",
+    "compile": "yarn build:ts",
+    "watch": "npm-run-all -lp watch:ts",
+    "build:ts": "../node_modules/.bin/tsc -b",
+    "watch:ts": "../node_modules/.bin/tsc -b -w"
   },
   "devDependencies": {
     "@parcel/watcher": "2.0.7",
     "esbuild": "^0.15.14",
+    "npm-run-all": "^4.1.5",
     "vscode-grammar-updater": "^1.1.0"
+  },
+  "workspaces": {
+    "packages": [
+      "devopsremoting-common",
+      "devopsremoting-web"
+    ]
   }
 }

@@ -632,6 +632,18 @@
 					}
 				]
 			}
+		},
+		{
+			"files": [
+				"build/gulpfile.devopsremoting.js",
+				"src/vs/devopsremoting/*",
+				"extensions/devopsremoting*/**"
+			],
+			"rules": {
+				"header/header": [
+					"off"
+				]
+			}
 		}
 	]
 }
