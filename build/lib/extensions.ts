@@ -290,6 +290,7 @@ const excludedExtensions = [
 	'vscode-test-resolver',
 	'ms-vscode.node-debug',
 	'ms-vscode.node-debug2',
+	'devopsremoting-common',
 ];
 
 const marketplaceWebExtensionsExclude = new Set([
